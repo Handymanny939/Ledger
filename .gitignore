@@ -1,0 +1,17 @@
+# Maven build output — never commit generated files
+target/
+
+# SQLite database — contains local data, not source code
+*.db
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
